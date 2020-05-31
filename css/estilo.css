@@ -49,6 +49,14 @@ body{
   border-radius: 10px;
   border: 1px solid #ffffff;
 }
+.but1:hover{
+  width: 150px;
+  transition: 0.5s;
+}
+.but_meio:hover{
+  width: 150px;
+  transition: 0.5s;
+}
 
 .but2{
   background: linear-gradient(40deg, #FFFFFF 0%, #FFFFFF 100%);
@@ -58,6 +66,10 @@ body{
   width: 140px;
   height: 48px;
   border: 1px solid #9D60EB;
+}
+.but2:hover{
+  width: 150px;
+  transition: 0.5s;
 }
 
 .imagem1{
