@@ -1,23 +1,6 @@
 body{
   font-family: sans-serif;
 }
-#menu{
-  display: flex;
-  justify-content: center;
-}
-
-#menu img{
-  margin-right: 130px;
-}
-#menu li{
-  display: inline;
-  margin: 0 15px 0 15px;
-}
-
-#menu a{
-  text-decoration: none;
-  color: #000;
-}
 
 
 /* fim menu */
@@ -220,4 +203,56 @@ select{
   text-decoration: underline;
 }
 
+
 /* Responsivo*/
+@media screen and (min-width: 1225px){
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu img{
+    margin-right: 130px;
+  }
+  .menu li{
+    display: inline;
+    margin: 0 15px 0 15px;
+  }
+
+  .menu a{
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+
+@media screen and (max-width: 1224px){
+  .header__icon, .m{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+  }
+  .icon, .header__icon__first, .header__icon__second, .header__icon__third {
+    width: 30px;
+    height: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 1s ease;
+    background-color: black;
+    transition: background-color .7s, transform 1s ease;
+  }
+  .menu, .m{
+    display: none;
+  }
+ 
+}
