@@ -1,0 +1,211 @@
+body{
+  font-family: sans-serif;
+}
+#menu{
+  display: flex;
+  justify-content: center;
+}
+
+#menu img{
+  margin-right: 130px;
+}
+#menu li{
+  display: inline;
+  margin: 0 15px 0 15px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* fim menu */
+
+#centro{
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#centro h1, h2, p{
+  text-align: center;
+}
+.but{
+  display: flex;
+  justify-content: center;
+}
+
+.but1, .but_meio{
+  background: linear-gradient(57deg, #7968D8 0%, #C87FDE 100%);
+  top: 441px;
+  width: 140px;
+  height: 48px;
+  opacity: 1;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+.but2{
+  background: linear-gradient(40deg, #FFFFFF 0%, #FFFFFF 100%);
+  color: #9D60EB;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 140px;
+  height: 48px;
+  border: 1px solid #9D60EB;
+}
+
+.imagem1{
+  display: flex;
+  justify-content: center;
+}
+
+.meio{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.left{
+  width: 30%;
+  text-align: left;
+}
+.left p{
+  text-align: left;
+}
+
+.meio2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.right{
+  width: 30%;
+  text-align: right;
+}
+
+#contato{
+  background: linear-gradient(10deg, #FFFFFF 10%, #C9E6FF 10%);
+  margin: 50px 0 50px 0;
+  padding: 50px 0 50px 0;
+}
+
+fieldset{
+  border: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.grupo{
+  width: 50%;
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+fieldset label{
+  margin: 10px;
+}
+.grupo [placeholder]{
+  padding-bottom: 10px;
+}
+
+.nomes{
+  display: flex;
+  justify-content: center;
+}
+.n{
+  width: 100%;;
+}
+.nomes label{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.campos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grupo input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #aaa;
+  margin: 10px;
+}
+
+select{
+  width: 100%;
+  padding: 5px;
+  height: 34px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
+  -webkit-appearance: none;
+  background-position-x: 100%;
+  border: none;
+  border-bottom: 1px solid #aaa;
+}
+
+
+
+
+/* Edição do rodapé */
+
+#footer{
+  color: #777777;
+  background: url('img/Grupo 2255.png');
+}
+
+.logo2{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+}
+.info ul{
+  margin: 0 50px 0 50px;
+  list-style: none;
+  width: 150px;
+}
+.titulo{
+  color: #000000;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.info li{
+  margin: 10px 0 10px 0;
+  font-size: 13px;
+}
+
+.midias{
+  display: flex;
+  justify-content: space-around;
+}
+.midias li{
+  margin-left: 10px;
+}
+
+.bk{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.bk p{
+  display: flex;
+  justify-content: center;
+  margin: 30px 100px 0 100px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+/* Responsivo*/
