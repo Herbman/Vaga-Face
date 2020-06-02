@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./js/script.js"></script>
 
 </head>
 <body>
@@ -21,17 +21,34 @@
         <li><a href="#">Product</a></li>
         <li><a href="#">Carrer</a></li>
         <li><a href="#">Blog</a></li>
-        <li><input type="text" placeholder="Search here"><i class="fa fa-search"></i></li>
+        <li><input type="text" placeholder="Search here" /></li>
         <button class="but1">Contact us</button> 
       </ul> 
     </div>
-    <!-- menu responsivo -->
-    <div class="header__icon">
-      <label for="menu-ico" class="header__icon">
+
+    <!-- ícone menu responsivo-->
+
+
+    <div class="header__icon" id="menuResp" onclick="criarMenu();">
+      <label for="menu-ico" class="header__icon" >
         <label for="menu-ico" class="header__icon__first"></label>
         <label for="menu-ico" class="header__icon__second"></label>
         <label for="menu-ico" class="header__icon__third"></label>
       </label>
+      <!-- fim ícone -->
+      
+        <!-- menu responsivo -->
+        <div id="menuResponsivo">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portifolio</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Carrer</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul> 
+        </div>
+
       </div>
     
   </header>

@@ -3,6 +3,29 @@ body{
 }
 
 
+
+#is-open{
+  display: none;
+}
+
+#menuResponsivo {
+  display: none;
+  height: 100vh;
+  width: 350px;
+  background-color: #585858;
+  position: fixed;
+  top: 0;
+  color: white;
+  padding: 2.75em;
+  font-size: 1.4em;   
+  transition: transform .7s ease;
+  z-index: 2;
+}
+
+#menu-ico:checked ~ .menuResponsivo{
+  transform: translateX(calc(-500px));
+}
+
 /* fim menu */
 
 #centro{
@@ -223,6 +246,7 @@ select{
     text-decoration: none;
     color: #000;
   }
+  
 }
 
 
@@ -251,6 +275,8 @@ select{
     background-color: black;
     transition: background-color .7s, transform 1s ease;
   }
+  
+  
   .menu, .m{
     display: none;
   }
